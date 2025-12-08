@@ -58,8 +58,7 @@ dist/
 # -------------------------------------
 # Project outputs
 # -------------------------------------
-reports/figures/*
-!reports/figures/.gitkeep
+
 
 # -------------------------------------
 # OS-specific
