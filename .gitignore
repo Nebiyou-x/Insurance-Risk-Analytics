@@ -1,74 +1,22 @@
-# -------------------------------------
-# Python
-# -------------------------------------
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.p
-*.log
-
-# Virtual environments
+# Virtual environment
 .venv/
-env/
-venv/
-ENV/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Byte-compiled / optimized / DLL files
+# Python cache
+__pycache__/
 *.py[cod]
-*$py.class
 
-# MyPy / linting
-.mypy_cache/
-.pytest_cache/
+# Jupyter
+.ipynb_checkpoints/
+# *.ipynb
 
-# Coverage
-htmlcov/
-.coverage
+# Data
+# data/
+# *.csv
 
-# -------------------------------------
-# DVC
-# -------------------------------------
-# Let DVC handle versioning of data---never commit raw data
-/data/*
-!/data/.gitkeep
-*.dvc
-*.lock
-
-# DVC cache
-/.dvc/cache/
-.cache/
-
-# DVC remote (if local folder inside repo—normally external)
-local_storage/
-
-# -------------------------------------
-# Build / artifacts
-# -------------------------------------
-build/
-dist/
-*.egg-info/
-*.egg
-.eggs/
-
-# -------------------------------------
-# Project outputs
-# -------------------------------------
-
-
-# -------------------------------------
-# OS-specific
-# -------------------------------------
+# OS
 .DS_Store
 Thumbs.db
 
-# -------------------------------------
-# IDEs
-# -------------------------------------
-.vscode/
-.idea/
-*.swp
+# IDE
+# .vscode/
+# .idea/
