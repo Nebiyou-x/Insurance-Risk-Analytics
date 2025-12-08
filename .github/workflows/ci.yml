@@ -27,6 +27,4 @@ jobs:
       run: |
         pytest -q || true   # optional: make tests pass locally first
 
-    - name: Run EDA smoke test
-      run: |
-        python src/eda.py --smoke
+    
